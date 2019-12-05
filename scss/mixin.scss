@@ -1,0 +1,19 @@
+@mixin title {
+    font-family:$bold;
+    color:$text-color;
+    text-transform:uppercase;
+}
+
+@mixin btn{
+    display:block;
+    background-color:$green;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:$black;
+    font-family:$bold;
+    font-size:32px;
+    outline:none;
+    border:none;
+    box-shadow:0 0 50px rgb(0, 0, 0);
+}
